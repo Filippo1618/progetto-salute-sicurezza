@@ -1,28 +1,20 @@
-
+html{
+  direction: ltr;
+}
 body{
   margin: 0;
 }
 
-h1 {
+h1,h2,h3{
   text-align: center;
+  margin: 0;
 }
-
+.titolo {
+  margin: 0;
+}
 .top_div {
   background: mediumaquamarine;
   height: 48px;
-}
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
 }
 
 .top_div a {
@@ -43,6 +35,20 @@ h1 {
   background-color: mediumspringgreen;
   color: rgb(187, 187, 187);
 }
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 
 .bar_menu_div {
   height: 60px;
@@ -56,21 +62,30 @@ h1 {
 .introduction_div {
   height: 520px;
   width: 100%;
-  background: transparent;
+  background-image: url('/img/WorkSafe.jpg');
+  align-items: center;
 }
 
 .photo1_div {
   height: 520px;
   width: 100%;
-  background-color: mediumspringgreen;
+  background-color:white;
   align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.photo2_div {
+  height: 564px;
+  width: 100%;
+  background-color:mediumspringgreen;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
-.photo2_div {
-  height: 520px;
-  width: 100%;
-  background-color: green;
-  align-items: center;
+/* We tell all items to be 100% width, via flex-basis */
+.photo2_div > * {
+  flex: 1 100%;
 }
 
 .foot_div {
