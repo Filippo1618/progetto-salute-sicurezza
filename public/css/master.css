@@ -1,0 +1,94 @@
+html {
+  direction: ltr;
+}
+h1 {
+  text-align: center;
+}
+
+ul{
+  display: inline;
+  vertical-align: middle;
+}
+
+li {
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+}
+
+nav {
+  vertical-align: 100%;
+  align-self: baseline;
+}
+header{
+  position: sticky;
+}
+.top_div {
+  overflow: hidden;
+  background-color: mediumaquamarine;
+}
+
+.top_div a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top_div a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top_div a.active {
+  background-color: mediumspringgreen;
+  color: rgb(187, 187, 187);
+}
+
+.menu_list{
+  background-color: mediumspringgreen;
+  /*justify-content: flex-end;*/
+  list-style: none;
+}
+
+.bar_menu_div {
+  height: 60px;
+  width: 100%;
+  padding: 0px;
+  border: solid 0px;
+  background-color: mediumspringgreen;
+  vertical-align: 100%;
+}
+
+.introduction_div {
+  height: 520px;
+  width: 95% -20px;
+  background-color: white;
+}
+
+.photo1_div {
+  height: 520px;
+  width: 95%- 10px;
+  background-color: mediumspringgreen;
+  align-items: center;
+  border: solid 10px;
+}
+
+.photo2_div {
+  height: 520px;
+  width: 95%- 10px;
+  background-color: green;
+  align-items: center;
+  border: solid 10px;
+}
+
+.foot_div {
+  height: 420px;
+  width: 95%- 10px;
+  background-color: grey;
+  align-items: center;
+  border: solid 10px;
+}
+
