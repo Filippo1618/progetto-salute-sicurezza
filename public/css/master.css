@@ -1,31 +1,28 @@
-html {
-  direction: ltr;
+
+body{
+  margin: 0;
 }
+
 h1 {
   text-align: center;
 }
 
-ul{
-  display: inline;
-  vertical-align: middle;
-}
-
-li {
-  display: inline;
-  vertical-align: middle;
-  text-align: center;
-}
-
-nav {
-  vertical-align: 100%;
-  align-self: baseline;
-}
-header{
-  position: sticky;
-}
 .top_div {
-  overflow: hidden;
-  background-color: mediumaquamarine;
+  background: mediumaquamarine;
+  height: 48px;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
 
 .top_div a {
@@ -38,19 +35,13 @@ header{
 }
 
 .top_div a:hover {
-  background-color: #ddd;
+  background-color:whitesmoke;
   color: black;
 }
 
 .top_div a.active {
   background-color: mediumspringgreen;
   color: rgb(187, 187, 187);
-}
-
-.menu_list{
-  background-color: mediumspringgreen;
-  /*justify-content: flex-end;*/
-  list-style: none;
 }
 
 .bar_menu_div {
@@ -64,31 +55,28 @@ header{
 
 .introduction_div {
   height: 520px;
-  width: 95% -20px;
-  background-color: white;
+  width: 100%;
+  background: transparent;
 }
 
 .photo1_div {
   height: 520px;
-  width: 95%- 10px;
+  width: 100%;
   background-color: mediumspringgreen;
   align-items: center;
-  border: solid 10px;
 }
 
 .photo2_div {
   height: 520px;
-  width: 95%- 10px;
+  width: 100%;
   background-color: green;
   align-items: center;
-  border: solid 10px;
 }
 
 .foot_div {
   height: 420px;
-  width: 95%- 10px;
+  width: 100%;
   background-color: grey;
   align-items: center;
-  border: solid 10px;
 }
 
