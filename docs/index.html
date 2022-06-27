@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Progetto Salute e Sicurezza</title>
     <link rel="stylesheet" href="./css/master.css">
-</head>
+    <link rel="icon" href="img/favicon.ico">
+  </head>
 
 <body>
   <div class="top_div" id="myHeader">
@@ -13,6 +14,8 @@
     <a href="/privati.html">Privati</a>
     <a  href="/contatti.html">Contatti</a>
     <a href="/chi_siamo.html">Chi siamo</a>
+    <button type="button">Accedi</button>
+    <button type="button">Registrati</button>
   </div>
 
   <div class="introduction_div">
@@ -49,7 +52,7 @@
     var sticky = header.offsetTop;
     
     function myFunction() {
-      if (window.pageYOffset > sticky) {
+      if (window.pageYOffset > 0) {
         header.classList.add("sticky");
       } else {
         header.classList.remove("sticky");
