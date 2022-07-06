@@ -5,7 +5,9 @@ const app = express()
 //1) MIDDLEWARE
 app.use(morgan('dev'))
 app.use(express.json()) //middleware per usare json file
-app.use(express.static(`${__dirname}/public`))
+//app.use(express.static(`${__dirname}/public`))
+app.use(express.static(`docs`))
+
 
 
 //2) ROUTE HANDLERS
