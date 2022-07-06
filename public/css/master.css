@@ -1,0 +1,103 @@
+html{
+  direction: ltr;
+}
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1,h2,h3{
+  text-align: center;
+  margin: 0;
+}
+
+.titolo {
+  margin: 0;
+  text-align: center;
+}
+.top_div {
+  background: mediumaquamarine;
+  height: 48px;
+}
+
+.top_div a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.top_div a:hover {
+  background-color:whitesmoke;
+  color: black;
+}
+
+.top_div a.active {
+  background-color: mediumspringgreen;
+  color: rgb(187, 187, 187);
+}
+
+.top_div button {
+  float:right;
+  position: relative;
+  top:30%;
+  margin-right: 1%;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+.introduction_div {
+  height: 520px;
+  width: 100%;
+  background-image: url('/img/WorkSafe.jpg');
+  align-items: center;
+}
+
+.photo1_div {
+  height: 520px;
+  width: 100%;
+  background-color:white;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.photo1_desc_div{
+  width: -webkit-fill-available;
+}
+.photo2_div {
+  height: 564px;
+  width: inherit;  
+  background-color: #E4F9F5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc2{
+  width: -webkit-fill-available;
+  vertical-align: middle;
+}
+.img2{
+  height: -webkit-fill-available;
+}
+.foot_div {
+  height: 320px;
+  width: 100%;
+  background-color: grey;
+  align-items: center;
+}
+

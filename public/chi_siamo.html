@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Progetto Salute e Sicurezza</title>
+    <link rel="stylesheet" href="./css/master.css">
+
+</head>
+<body>
+  <div class="top_div" id="myHeader">
+      <a href="/index.html">Home</a>
+      <a href="/privati.html">Privati</a>
+      <a href="/contatti.html">Contatti</a>
+      <a class="active" href="/chi_siamo.html">Chi siamo</a>
+    </div>
+  </header>
+
+  <div class="introduction_div">
+    <br>
+    <h1>Il nostro Team</h1>
+  </div>
+
+  <div class="photo1_div">
+  </div>
+
+  <div class="photo2_div">
+  </div>
+
+  <div class="foot_div">
+  </div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Progetto Salute e Sicurezza</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="icon" href="img/favicon.ico">
+  </head>
+
+<body>
+  <div class="top_div" id="myHeader">
+    <a class="active" href="/index.html">Home</a>
+    <a href="/privati.html">Privati</a>
+    <a  href="/contatti.html">Contatti</a>
+    <a href="/chi_siamo.html">Chi siamo</a>
+    <button type="button">Accedi</button>
+    <button type="button">Registrati</button>
+  </div>
+
+  <div class="introduction_div">
+    <br>
+    <h1 class="titolo">Progetto Salute e Sicurezza</h1>
+  </div>
+
+  <div class="photo1_div">
+    <img src="/img/circolo-sicurezza-lavoro.png" alt="" class=img1>
+    <div class="photo1_desc_div">
+      <h3>descrizione con link eventuali</h3>
+    </div>
+  </div>
+
+  <div class="photo2_div" aria-live="polite">
+    <div class="desc2">
+      <h2>descrizione ed eventuali link</h2>
+    </div>
+    <div>
+      <img src="/img/omino-modulo.jpg" alt="" class="img2">
+    </div>
+    
+    
+  </div>
+
+  <div class="foot_div">
+    <h3>FOOTER</h3>
+  </div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > 0) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
