@@ -64,7 +64,7 @@ h1,h2,h3{
 .introduction_div {
   height: 520px;
   width: 100%;
-  background-image: url('/img/WorkSafe.jpg');
+  background-image: url('../img/WorkSafe.jpg');
   align-items: center;
 }
 
